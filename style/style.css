@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: #dcdcdc;
+    min-height: 100vh;
+    background-color: #ededed;
 }
 
 header{
@@ -31,15 +32,15 @@ main{
     margin-bottom: 30px;
 }
 
-.msg{
-    width: 100%;
-    max-width: 1000px;
+main #msg{
+    width: 350px;
     background-color: white;
-    backdrop-filter: blur(15px);
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    justify-items: center;
+    margin: 20px auto;
 }
 
 main span{
@@ -62,9 +63,16 @@ footer img{
     width: 150px;
     margin-top: 5px;
     margin-bottom: 10px;
+    margin-left: 100px;
 }
 
 footer p{
     margin-top: 5px;
     margin-left: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+footer p:hover{
+    color: red;
 }
