@@ -23,6 +23,10 @@ header{
     padding-left: 1000px;
 }
 
+.nave p:hover{
+    color: red;
+}
+
 main{
     margin-bottom: 200px;
 }
